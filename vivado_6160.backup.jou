@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 13 11:08:55 2019
+# Process ID: 6160
+# Current directory: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent916 C:\Users\umram-bt\Documents\rdf0195-vc707-bist-c-2015-1\vc707_bist\vc707_bist.xpr
+# Log file: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vivado.log
+# Journal file: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.xpr
+launch_sdk -workspace C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk -hwspec C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk/system_wrapper.hdf
+open_bd_design {C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd}
+make_wrapper -files [get_files C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd] -top
+set_property flow {Vivado Synthesis 2016} [get_runs synth_1]

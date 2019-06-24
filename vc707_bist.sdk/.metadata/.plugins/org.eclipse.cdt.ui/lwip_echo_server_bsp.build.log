@@ -1,0 +1,177 @@
+12:08:10 **** Build of project lwip_echo_server_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/axidma_v8_1/src"
+make -C microblaze_0/libsrc/axidma_v8_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/axiethernet_v4_4/src"
+make -C microblaze_0/libsrc/axiethernet_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/cpu_v2_3/src"
+make -C microblaze_0/libsrc/cpu_v2_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/iic_v3_1/src"
+make -C microblaze_0/libsrc/iic_v3_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/intc_v3_3/src"
+make -C microblaze_0/libsrc/intc_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/lwip141_v1_0/src"
+make -C microblaze_0/libsrc/lwip141_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/standalone_v5_0/src"
+make -C microblaze_0/libsrc/standalone_v5_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/sysmon_v7_0/src"
+make -C microblaze_0/libsrc/sysmon_v7_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/uartns550_v3_2/src"
+make -C microblaze_0/libsrc/uartns550_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/usb_v5_0/src"
+make -C microblaze_0/libsrc/usb_v5_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in microblaze_0/libsrc/axidma_v8_1/src"
+make -C microblaze_0/libsrc/axidma_v8_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axidma"
+"Running Make libs in microblaze_0/libsrc/axiethernet_v4_4/src"
+make -C microblaze_0/libsrc/axiethernet_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axiethernet"
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_3/src"
+make -C microblaze_0/libsrc/cpu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/iic_v3_1/src"
+make -C microblaze_0/libsrc/iic_v3_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iic"
+"Running Make libs in microblaze_0/libsrc/intc_v3_3/src"
+make -C microblaze_0/libsrc/intc_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling intc"
+"Running Make libs in microblaze_0/libsrc/lwip141_v1_0/src"
+make -C microblaze_0/libsrc/lwip141_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+A subdirectory or file obj already exists.
+make[1]: *** [obj_dir] Hata 1
+"Compiling lwIP"
+"Compiling lwIP adapter for Xilinx MAC"
+contrib/ports/xilinx/netif/xpqueue.c: In function 'pq_create_queue':
+contrib/ports/xilinx/netif/xpqueue.c:48:3: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+   xil_printf("ERR: Max Queues allocated\n\r");
+   ^
+In file included from ../../../include/xil_io.h:70:0,
+                 from ../../../include/xaxiethernet_hw.h:63,
+                 from ../../../include/xaxiethernet.h:479,
+                 from ../../../include/netif/xaxiemacif.h:48,
+                 from contrib/ports/xilinx/netif/xadapter.c:59:
+../../../include/xil_printf.h:42:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^
+In file included from c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/mem.h:35,
+                 from contrib/ports/xilinx/netif/xadapter.c:43:
+c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:223:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make[1]: *** [contrib/ports/xilinx/netif/xadapter.o] Hata 1
+In file included from ../../../include/xil_io.h:70:0,
+                 from ../../../include/xaxiethernet_hw.h:63,
+                 from ../../../include/xaxiethernet.h:479,
+                 from ../../../include/netif/xaxiemacif.h:48,
+                 from contrib/ports/xilinx/netif/xaxiemacif_hw.c:33:
+../../../include/xil_printf.h:42:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^
+In file included from c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/netif.h:35,
+                 from ../../../include/netif/xaxiemacif.h:41,
+                 from contrib/ports/xilinx/netif/xaxiemacif_hw.c:33:
+c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:223:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make[1]: *** [contrib/ports/xilinx/netif/xaxiemacif_hw.o] Hata 1
+In file included from ../../../include/xil_io.h:70:0,
+                 from ../../../include/xaxiethernet_hw.h:63,
+                 from ../../../include/xaxiethernet.h:479,
+                 from ../../../include/netif/xaxiemacif.h:48,
+                 from contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:51:
+../../../include/xil_printf.h:42:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^
+In file included from c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/netif.h:35,
+                 from ../../../include/netif/xaxiemacif.h:41,
+                 from contrib/ports/xilinx/netif/xaxiemacif_physpeed.c:51:
+c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:223:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make[1]: *** [contrib/ports/xilinx/netif/xaxiemacif_physpeed.o] Hata 1
+In file included from ../../../include/xil_io.h:70:0,
+                 from ../../../include/xaxiethernet_hw.h:63,
+                 from ../../../include/xaxiethernet.h:479,
+                 from ../../../include/netif/xaxiemacif.h:48,
+                 from contrib/ports/xilinx/netif/xaxiemacif.c:66:
+../../../include/xil_printf.h:42:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^
+In file included from c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from contrib/ports/xilinx/netif/xaxiemacif.c:51:
+c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:223:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make[1]: *** [contrib/ports/xilinx/netif/xaxiemacif.o] Hata 1
+In file included from ../../../include/xil_io.h:70:0,
+                 from ../../../include/xaxiethernet_hw.h:63,
+                 from ../../../include/xaxiethernet.h:479,
+                 from ../../../include/netif/xaxiemacif.h:48,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:45:
+../../../include/xil_printf.h:42:6: error: conflicting types for 'print'
+ void print(char *ptr);
+      ^
+In file included from c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:29:0,
+                 from ../../../include/arch/cc.h:55,
+                 from ../../../include/lwip/arch.h:43,
+                 from ../../../include/lwip/debug.h:35,
+                 from ../../../include/lwip/opt.h:46,
+                 from ../../../include/lwip/stats.h:35,
+                 from contrib/ports/xilinx/netif/xaxiemacif_dma.c:41:
+c:\xilinx\sdk\2016.4\gnu\microblaze\nt\microblaze-xilinx-elf\include\stdio.h:223:9: note: previous declaration of 'print' was here
+ void    _EXFUN(print, (const char* ));
+         ^
+make[1]: *** [contrib/ports/xilinx/netif/xaxiemacif_dma.o] Hata 1
+make[1]: Hedef `libs' hatalardan dolayý yeniden derlenemez.
+make: *** [microblaze_0/libsrc/lwip141_v1_0/src/make.libs] Hata 2
+"Running Make libs in microblaze_0/libsrc/standalone_v5_0/src"
+make -C microblaze_0/libsrc/standalone_v5_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/sysmon_v7_0/src"
+make -C microblaze_0/libsrc/sysmon_v7_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sysmon"
+"Running Make libs in microblaze_0/libsrc/tmrctr_v3_0/src"
+make -C microblaze_0/libsrc/tmrctr_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+"Running Make libs in microblaze_0/libsrc/uartns550_v3_2/src"
+make -C microblaze_0/libsrc/uartns550_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartns550"
+"Running Make libs in microblaze_0/libsrc/usb_v5_0/src"
+make -C microblaze_0/libsrc/usb_v5_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usb"
+make: Hedef `all' hatalardan dolayý yeniden derlenemez.
+
+12:08:51 Build Finished (took 41s.235ms)
+

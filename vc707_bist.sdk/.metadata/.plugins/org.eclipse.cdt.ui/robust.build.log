@@ -1,0 +1,36 @@
+15:05:12 **** Incremental Build of configuration Debug for project robust ****
+make all 
+'Building file: ../src/echo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../robust_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+In file included from ../src/echo.c:35:0:
+../src/echo.c: In function 'recv_callback':
+../../robust_bsp/microblaze_0/include/xbram_hw.h:353:21: warning: passing argument 2 of 'tcp_write' makes pointer from integer without a cast [-Wint-conversion]
+ #define XBram_In32  Xil_In32
+                     ^
+../../robust_bsp/microblaze_0/include/xbram_hw.h:396:2: note: in expansion of macro 'XBram_In32'
+  XBram_In32((BaseAddress) + (RegOffset))
+  ^
+../src/echo.c:73:19: note: in expansion of macro 'XBram_ReadReg'
+   tcp_write(tpcb, XBram_ReadReg(0xc0000000, 0), 4, 1);
+                   ^
+In file included from ../src/echo.c:38:0:
+../../robust_bsp/microblaze_0/include/lwip/tcp.h:358:18: note: expected 'const void *' but argument is of type 'u32 {aka long unsigned int}'
+ err_t            tcp_write   (struct tcp_pcb *pcb, const void *dataptr, u16_t len,
+                  ^
+'Finished building: ../src/echo.c'
+' '
+'Building target: robust.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../robust_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "robust.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: robust.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size robust.elf  |tee "robust.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 149035	   1592	 749085	 899712	  dba80	robust.elf
+'Finished building: robust.elf.size'
+' '
+
+15:05:12 Build Finished (took 719ms)
+

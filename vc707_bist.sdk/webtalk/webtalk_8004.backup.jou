@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:37:43 MDT 2015
+# 
+# Start of session at: Thu May 07 01:26:33 2015
+# Process ID: 8004
+# Log file: C:/vc707_bist/vc707_bist.sdk/webtalk/webtalk.log
+# Journal file: C:/vc707_bist/vc707_bist.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

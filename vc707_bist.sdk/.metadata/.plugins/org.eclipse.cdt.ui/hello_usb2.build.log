@@ -1,0 +1,11 @@
+12:09:44 **** Auto Build of configuration Debug for project hello_usb2 ****
+make all 
+'Building target: hello_usb2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/microblaze_0/lib -mlittle-endian -mcpu=v9.5 -mxl-soft-mul -Wl,--no-relax -o "hello_usb2.elf"  ./src/platform.o ./src/xusb_cp9.o ./src/xusb_storage.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -lxilflash
+c:/xilinx/sdk/2016.4/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/5.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: cannot find -lxilflash
+collect2.exe: error: ld returned 1 exit status
+make: *** [hello_usb2.elf] Hata 1
+
+12:09:45 Build Finished (took 1s.125ms)
+
